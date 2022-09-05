@@ -1,4 +1,3 @@
-
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
@@ -76,7 +75,6 @@ function Quiz(questions) {
     element.innerHTML = gameOverHTML;
   };
   
-  // create questions here
   var questions = [
     new Question("JavaScript supports", ["Functions", "XHTML","CSS", "HTML"], "Functions"),
     new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
@@ -85,8 +83,6 @@ function Quiz(questions) {
     new Question("JavaScript is a ", ["Language", "Programming Language", "Development", "All"], "Programming Language")
   ];
   
-  // create quiz
   var quiz = new Quiz(questions);
   
-  // display quiz
   loadQuestions();
